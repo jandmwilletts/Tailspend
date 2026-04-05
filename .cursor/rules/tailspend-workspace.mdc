@@ -1,0 +1,29 @@
+---
+description: Tailspend repo path, shared venv location, and shell setup for fast work
+alwaysApply: true
+---
+
+# Tailspend workspace
+
+## Paths
+
+- **Repository:** `/Users/countryinterests/Documents/Github/Tailspend`
+- **Shared parent:** `/Users/countryinterests/Documents/Github`
+- **Python venv:** `/Users/countryinterests/Documents/Github/venv` (not inside the repo)
+
+## Virtual environment
+
+Activate before running Python, pip, or project scripts:
+
+```bash
+cd /Users/countryinterests/Documents/Github
+source venv/bin/activate
+cd /Users/countryinterests/Documents/Github/Tailspend
+```
+
+Deactivate with `deactivate`.
+
+## Agent behavior
+
+- Prefer using this venv for terminal commands in this project (`python`, `pip`, etc.).
+- If a command fails with “command not found” for Python tools, ensure the venv is activated first.
